@@ -24,7 +24,8 @@ The gRPC Group Chat Application is a real-time, bidirectional streaming communic
 
 ## Code Dependencies:
 
-```python
+```
+python
 from google.protobuf import descriptor as _descriptor
 from google.protobuf import descriptor_pool as _descriptor_pool
 from google.protobuf import symbol_database as _symbol_database
@@ -37,7 +38,8 @@ from tkinter import simpledialog
 
 Note: Ensure that you have the required dependencies installed, as specified in the `requirements.txt` file.
 
-```plaintext
+```
+ plaintext
 grpcio==1.9.0
 grpcio-tools==1.9.0
 protobuf==3.18.3
