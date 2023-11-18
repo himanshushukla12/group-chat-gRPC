@@ -34,6 +34,16 @@ import threading
 from tkinter import *
 from tkinter import simpledialog
 
+
+Note: Ensure that you have the required dependencies installed, as specified in the `requirements.txt` file.
+
+```plaintext
+grpcio==1.9.0
+grpcio-tools==1.9.0
+protobuf==3.18.3
+six==1.11.0
+
+
 ## Steps to Run the Application:
 
 1. **Create `chat.proto`:**
@@ -47,13 +57,3 @@ from tkinter import simpledialog
 
 4. **Run `client.py` (as many clients as you want):**
    - Execute the `client.py` script for each client you want to connect to the group chat. Multiple clients can join the conversation simultaneously.
-
-Note: Ensure that you have the required dependencies installed, as specified in the `requirements.txt` file.
-
-```plaintext
-grpcio==1.9.0
-grpcio-tools==1.9.0
-protobuf==3.18.3
-six==1.11.0
-
-
